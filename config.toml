@@ -1,0 +1,35 @@
+baseurl = "http://darkdefender27.github.io/"
+languageCode = "en-us"
+title = "Reverie"
+theme = "hemingway"
+copyright = "&copy; <a href=\"https://github.com/darkdefender27\">Shubham Utwal</a> 2016"
+disqusShortname = "shubhamutwal"
+googleAnalytics = ""
+
+[params]
+  Author = "Shubham Utwal"
+  favicon = "/images/reverie-favicon.png"
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/darkdefender27"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "http://stackoverflow.com/users/story/3104032"
+fa_icon = "fa-stack-overflow"
+
+[[params.social]]
+url = "https://in.linkedin.com/in/shubhamutwal"
+fa_icon = "fa-linkedin"
+
+[[params.social]]
+url = "https://www.facebook.com/shubhamutwal"
+fa_icon = "fa-facebook"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
