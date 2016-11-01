@@ -6,9 +6,10 @@ copyright = "&copy; <a href=\"https://github.com/darkdefender27\">Shubham Utwal<
 disqusShortname = "shubhamutwal"
 googleAnalytics = ""
 
+favicon = "favicon.ico"
+
 [params]
   Author = "Shubham Utwal"
-  favicon = "/images/reverie-favicon.png"
 
 [params.highlight]
 style = "github"
