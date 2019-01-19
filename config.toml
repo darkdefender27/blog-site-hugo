@@ -8,8 +8,6 @@ googleAnalytics = ""
 rssLimit = 10
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
-
-
 favicon = "favicon.ico"
 
 [author]
