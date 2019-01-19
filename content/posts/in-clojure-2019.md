@@ -1,7 +1,7 @@
 ---
 title: "IN/Clojure 2019"
 date: 2019-01-19T23:26:56+05:30
-draft: true
+draft: false
 toc: false
 images:
 tags: 
