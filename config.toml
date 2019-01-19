@@ -1,36 +1,66 @@
 baseurl = "https://darkdefender27.github.io/"
 languageCode = "en-us"
-title = "Reverie"
-theme = "hemingway"
+title = "Shubham Utwal"
+theme = "hermit"
 copyright = "&copy; <a href=\"https://github.com/darkdefender27\">Shubham Utwal</a> 2016"
 disqusShortname = "shubhamutwal"
 googleAnalytics = ""
+rssLimit = 10
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
 
 favicon = "favicon.ico"
 
+[author]
+  name = "Shubham Utwal"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag = "tags"
+  category = ""  # Categories are disabled by default.
+
 [params]
-  Author = "Shubham Utwal"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile"]
+  [params.highlight]
+  style = "github"
+  languages = ["go", "dockerfile"]
 
-[[params.social]]
-url = "https://github.com/darkdefender27"
-fa_icon = "fa-github"
+  # Social Icons
+  [[params.social]]
+  url = "https://github.com/darkdefender27"
+  name = "github"
 
-[[params.social]]
-url = "http://stackoverflow.com/users/story/3104032"
-fa_icon = "fa-stack-overflow"
+  [[params.social]]
+  url = "https://instagram.com/_b.mag/"
+  name = "instagram"
 
-[[params.social]]
-url = "https://in.linkedin.com/in/shubhamutwal"
-fa_icon = "fa-linkedin"
+  [[params.social]]
+  url = "https://in.linkedin.com/in/shubhamutwal"
+  name = "linkedin"
 
-[[params.social]]
-url = "https://www.facebook.com/shubhamutwal"
-fa_icon = "fa-facebook"
+  [[params.social]]
+  url = "https://www.facebook.com/shubhamutwal"
+  name = "facebook"
 
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+  [[params.social]]
+  url = "mailto:shubhamutwal@gmail.com"
+  name = "email"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 20
