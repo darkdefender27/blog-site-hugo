@@ -1,7 +1,7 @@
 ---
 title: "Apache Wsgi Configuration"
 date: 2018-02-17T12:44:44+05:30
-draft: true
+draft: false
 ---
 
 TLDR; In this post I have penned down my experience in configuring apache to interact with apps written in Python.
