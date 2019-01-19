@@ -62,5 +62,5 @@ favicon = "favicon.ico"
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20
