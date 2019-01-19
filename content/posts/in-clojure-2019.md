@@ -4,6 +4,7 @@ date: 2019-01-19T23:26:56+05:30
 draft: false
 toc: false
 images:
+  - https://picsum.photos/1024/768/?random
 tags: 
   - clojure
 ---
@@ -19,3 +20,7 @@ I got to replenish my stale knowledge on _Lazy Seq, Java Interop, REPL_ interact
 The final segment of the workshop dealt with `core-async`. The same pattern was followed here as well, concepts and then exercises which worked-up those concepts. During this segment, I learnt how, using _core-async_, one can solve or scale the earlier problem of reading and processing data from a source, when your source is emitting out data in realtime (Streams!). To end the workshop, we solved the exercise, using _core-async's_ channels; the exercise already had a base streaming solution in place with appropriate expressions to be filled in the blanks.
 
 The content of the workshop had a good amount of variation, it went on from basics to intermediate to some advanced clojure at an appropriate pace. A well documented workshop material is made available on [Github](https://github.com/inclojure-org/intermediate-clojure-workshop/). So, just clone your way into the world of Fun Fun Functions!
+
+---
+
+![img](../../images/lanyard_in_clojure_2019.jpg)
