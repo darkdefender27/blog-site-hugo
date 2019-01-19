@@ -4,7 +4,7 @@ title = "Shubham Utwal"
 theme = "hermit"
 copyright = "&copy; <a href=\"https://github.com/darkdefender27\">Shubham Utwal</a> 2016"
 disqusShortname = "shubhamutwal"
-googleAnalytics = ""
+googleAnalytics = "UA-132832700-1"
 rssLimit = 10
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
