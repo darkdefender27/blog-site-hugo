@@ -25,6 +25,8 @@ favicon = "favicon.ico"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  
+  homeSubtitle = "Distributed Systems | Data"
 
   [params.highlight]
   style = "github"
