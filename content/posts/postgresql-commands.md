@@ -65,3 +65,11 @@ select now() - pg_last_xact_replay_timestamp() AS replication_delay;
 ``` psql
 select relname, last_vacuum, last_autovacuum, last_analyze, last_autoanalyze from pg_stat_user_tables;
 ```
+
+***
+
+## Number of live tuples and dead tuples
+
+``` psql
+SELECT pg_stat_get_live_tuples(c.oid) AS n_live_tup, pg_stat_get_dead_tuples(c.oid) AS n_dead_tup FROM pg_class c where c.relname = '<relname>';
+```
