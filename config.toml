@@ -1,8 +1,8 @@
-baseurl = "https://darkdefender27.github.io/"
+baseurl = "https://shubhamutwal.in"
 languageCode = "en-us"
 title = "Shubham Utwal"
 theme = "hermit"
-copyright = "&copy; <a href=\"https://github.com/darkdefender27\">Shubham Utwal</a> 2016"
+copyright = "&copy; <a href=\"https://shubhamutwal.in\">Shubham Utwal</a> 2021"
 disqusShortname = "shubhamutwal"
 googleAnalytics = "UA-132832700-1"
 rssLimit = 10
