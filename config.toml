@@ -9,6 +9,7 @@ rssLimit = 10
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 favicon = "favicon.ico"
+enableEmoji = true
 
 [author]
   name = "Shubham Utwal"
